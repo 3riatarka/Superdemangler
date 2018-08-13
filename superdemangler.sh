@@ -21,7 +21,7 @@ do
 	fi
 	if [[ "$counter" -gt 25 ]];
 	then
-		print "${RED}Se han hecho más de 25 consultas, y no hay match.${NC}"
+		print "${RED}No match in more than 25 queries.${NC}"
 		exit 1
 	fi
 	actual=${actual::-1}
