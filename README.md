@@ -1,5 +1,5 @@
 # Superdemangler
-Modified API request to demangler.com
+Modified API request to demangler.com to demangle complex C++ flags.
 
 ## Get the script
 `git clone https://github.com/3riatarka/Superdemangler && chmod +x Superdemangler/superdemangler.sh && chmod +x Superdemangler/demangler.sh`
